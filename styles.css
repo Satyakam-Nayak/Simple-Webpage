@@ -1,0 +1,132 @@
+/*-----header------*/
+#header-logo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+/*-----nav bar-----*/
+.flex-container{
+    background-color: rgb(114, 190, 114);
+    border-radius: 1rem;
+    display: flex;
+    justify-content:space-around;
+    padding: 0;
+}
+
+.flex-container li{
+    list-style: none;
+}
+
+.flex-container a{
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.flex-container a:hover{
+    color:rgb(198, 231, 122);
+}
+
+/*------main------*/
+h1 {
+    font-size: 3rem;
+    color:white;
+}
+
+h1 + p{
+    color:white;
+}
+
+.promotion-bg{
+    background-image:url("https://dojo.tech/media/5gxh4brk/avo-on-toast-min.jpg?anchor=center&mode=crop&width=1062&height=320&quality=70&rnd=132726497722970000");
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    transition: 0.5s ease-in-out;
+}
+
+.promotion-bg:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+article {
+    background-color: rgb(114, 190, 114);
+    margin: 1rem;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+article h2{
+    text-align: center;
+}
+
+article img{
+    display:block;
+    margin:auto;
+    border-radius: 1rem;
+    width: 90%;
+    height: 30%;
+}
+
+body{
+    background-color:rgb(157, 212, 157);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3rem 5%;
+}
+
+.section_2 {
+    display: flex;
+}
+
+.section_2 article{
+    flex:1;
+    transition: 0.5s ease-in-out;
+}
+
+.section_2 article:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    height:5rem;
+    font-size: 2rem;
+    color: white;
+    overflow: auto;
+}
+
+h2 + p{
+    color: white
+}
+
+/*-----footer-----*/
+#footer-logo{
+    width: 15%;
+    height: auto;
+}
+
+#footer-logo:hover{
+    transform: rotateZ(360deg);
+    transition: 2s;
+}
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+    margin: 1rem;
+}
+footer .div1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div2 p{
+    display:flex;
+    justify-content: center;
+}
+
